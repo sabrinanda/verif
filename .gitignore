@@ -1,0 +1,17 @@
+# Local documents and OCR output may contain sensitive data.
+attachment/
+*.pdf
+*.xlsx
+.ocr_cache/
+
+# Local Python artifacts and credentials.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local agent permissions.
+.claude/settings.local.json
